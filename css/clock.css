@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial,Helvetica, sans-serif ;
+}
+
+
+
+.board{
+    height: 550px;
+    width: 550px;
+    border: 20px solid #596dff;
+    margin: 25px auto;
+    border-radius: 50%;
+    position: relative;
+    background-color: #cdfff0;
+}
+
+.ket{
+    position: absolute;
+    top: 225px;
+    left: 225px;
+    width: 50px;
+    height: 50px;
+    background-color: #596dff;
+    border-radius: 50%;
+   z-index: 300;
+}
+
+.num{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+}
+.num1{
+     right: 130px;
+     top: 45px;
+ }
+
+.num2{
+    right: 45px;
+    top: 125px;
+}
+.num3{
+    right: 10px;
+    top: 235px;
+}
+.num4{
+    right: 45px;
+    top: 345px;
+}
+.num5{
+    left: 375px;
+    top: 430px;
+}
+.num6{
+    right: 240px;
+    bottom: 10px;
+}
+.num7{
+    right: 375px;
+    top: 430px;
+}
+.num8{
+    left: 45px;
+    top: 345px;
+}
+.num9{
+    left: 10px;
+    top: 235px;
+}
+.num10{
+    left: 45px;
+    top: 125px;
+}
+.num11{
+    left: 130px;
+    top: 45px;
+}
+.num12{
+    right: 240px;
+    top: 10px;
+}
+
+.companyName{
+    position: absolute;
+    font-weight: bold;
+    font-size: 35px;
+    top: 100px;
+    left: 220px;
+    color: orangered;
+}
+
+.boardHours{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    border-radius: 50%;
+
+}
+
+.hourHand{
+    position: relative;
+}
+.hour{
+    width: 7px;
+    height: 120px;
+    background-color:black;
+    position: absolute;
+     top: 25px;
+    left: 145px;
+
+}
+
+.boardMinute{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    border-radius: 50%;
+}
+
+.minuteHand{
+    position: relative;
+}
+.minute{
+    width: 5px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    left: 198px;
+
+
+}
+
+.boardSecond{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    border-radius: 50%;
+}
+
+
+.secondHand{
+    position: relative;
+}
+.second{
+    width: 2px;
+    height: 175px;
+    background-color:black;
+    position: absolute;
+    left: 174px;
+
+}
+
+
+
+
